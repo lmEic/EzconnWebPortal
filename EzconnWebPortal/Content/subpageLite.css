@@ -1,0 +1,76 @@
+                                                         /*top nav*/
+.topNav {
+	height: 52px;
+}
+
+.topNavList {
+	height: 52px;
+}
+
+.topNav a {
+	height: 52px;
+	line-height: 52px;
+	font: 16px/52px "Microsoft YaHei", "Simsun", "宋体";
+}
+
+/*content*/
+.content {
+	width: 1000px;
+	z-index: -1;
+}
+
+.title {
+	color: #1394A8;
+	font: 24px/52px "Microsoft YaHei", "Simsun", "宋体";
+	margin-bottom: 23px;
+}
+
+.row {
+	width: 988px;
+	height: 28px;
+	font-weight: bold;
+	color: #1394A8;
+	font: 16px/28px "Simsun", "宋体";
+	background: #f2f2f2;
+	padding: 0 0 0 12px;
+	margin: 0 0 12px 0;
+}
+
+.links {
+	font: 14px/28px "Simsun", "宋体";
+	margin: 3px 0 0 0;
+	overflow: hidden;
+}
+
+.links a:hover {	
+	text-decoration: underline;
+}
+
+.lv1 {
+	font-weight: bold;
+}
+
+.color066 {
+	color: #1394A8;
+	font-weight: bold;
+}
+
+.searchNote {
+	line-height: 20px;
+	border-bottom: 1px solid #1394A8;
+	padding: 0 0 6px 0;
+	margin: 0 0 25px 0;
+}
+
+.searchNote em {
+	font-weight: bold;
+	float: right;
+}
+
+.searchNote em a {
+	color: #1394A8;
+}
+
+.searchNote span {
+	font-family: ;
+}

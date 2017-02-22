@@ -1,0 +1,1665 @@
+﻿/*top nav*/
+.topNav {
+	height: 52px;
+}
+
+.topNavList {/*reset css*/
+
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0 }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset, img { border: 0 }
+ul, ol, li { list-style: none; }
+h1, h2, h3, h4, h5, h6 { /*font-size:100%;*/ }
+input, textarea, select { font-family:inherit; font-size:inherit; font-weight:inherit; *font-size:100%
+}
+* { margin:0; padding:0;}
+/* coommon */
+.clrearfix:before {content: "."; display: block;height: 0; visibility: hidden;clear: both;}
+.clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }
+.clearfix { *zoom:1;
+}
+
+
+/*public css*/
+body { color: #666; background:#ffffff;font-family:"Microsoft YaHei","微软雅黑","宋体"; font-size:12px; overflow-x:hidden;*position: relative; }
+a { color: #666; text-decoration: none }
+em ,i { font-style: normal;}
+.center {margin:0 auto; width:1000px; clear:both;}
+.fl {float: left;}
+.fr {float: right;}
+
+/*header*/
+.headbg
+{
+    height: 100px; background: #f1f1f1;
+}
+.logo
+{
+    float: left;padding-top: 9px; padding-left: 15px;
+}
+.header a
+{
+    font-size: 12px;line-height: 46px;display: inline-block;float: right;padding-top: 15px;padding-right: 15px;text-decoration: none;color: #333;
+}
+.banner
+{
+	height: 300px;background: url(../images/banner_bg.png) repeat-x;
+}
+.title
+{
+	font-size: 30px; line-height: 55px; clear: both;width: 220px; height: 55px; margin: 30px auto;text-align: center; color: #fff;background: url(../images/title_bg.png) no-repeat;
+}
+.discount
+{
+    margin: 0 40px;
+}
+.discount > li
+{
+    float: left;width: 400px;padding-left: 60px;
+}
+.discount > li.u1960 h2,
+.discount li.u1960 ul
+{
+    padding-left: 60px;
+}
+.discount ul
+{
+	display: none;padding: 20px 0 40px 0;
+}
+.discount li:hover ul
+{
+	display: block;
+}
+.discount ul li,
+.free ul li,
+.eSpace ul li
+{
+	font-size: 18px; padding: 5px 0 5px 20px; background: url(../Content/image/li_arrow.png) no-repeat 5px 13px;
+}
+.discount h2
+{
+    font-size: 24px;font-weight: normal; padding-bottom: 20px;
+}
+.free
+{
+	position: relative;height: 540px;
+}
+.pro
+{
+    position: absolute;top: 50px;left: -75px;
+}
+.img1
+{
+	position: absolute;top:10px; left: 31px;width: 396px;height: 297px;
+}
+.img2
+{
+	position: absolute;top: 1px; left: 415px;width: 418px;height: 317px;
+}
+.img3
+{
+	position: absolute;top: 185px; left: 0px;width: 291px;height: 255px;
+}
+.img4
+{
+	position: absolute;top: 225px; left: 314px;width: 104px;height: 202px;
+}
+.img5
+{
+	position: absolute;top:235px; left: 437px;width: 95px;height: 185px;
+}
+.img6
+{
+	position: absolute;top:199px; left: 567px;width: 339px;height: 220px;
+}
+.pro p:hover
+{
+	z-index: 99;
+}
+.pro p:hover img
+{
+	width: 120%;height: 120%;
+}
+.free ul
+{
+    position: absolute;top: 85px;right: -130px;
+}
+.title2
+{
+    width: 340px; margin-bottom: 0;background: url(../Content/image/title_bg2.png) no-repeat;
+}
+.iptitle
+{
+	font-size: 24px; line-height: 36px;width: 850px; padding: 10px 0;padding-left: 75px; text-align: center;
+}
+.red a,
+.adding li a:hover,
+p a
+{
+    color: #900;
+}
+.eSpace
+{
+	position: relative;height: 380px;
+}
+.eSpace > li
+{
+    position: relative; top: 90px;float: left;width: 226px;height: 226px; margin: 0 auto; padding-left: 69px;
+}
+
+.eSpace li ul
+{
+    display: none;
+}
+.pic
+{
+	position: relative;overflow: hidden;width: 226px; height: 226px;background: #ffffff;border-radius: 100%;
+}
+.pic img
+{
+	position: absolute;top: 0;left: 0;width: 220px; height: 220px;
+}
+
+.eSpace li:hover
+{
+    z-index: 999;
+}
+.eSpace li:hover .pic
+{
+	z-index: 2; width: 220px; height: 220px;border: 3px #eb8d00 solid;/*behavior: url(border-radius.htc);*/
+}
+.eSpace li:hover .pic img
+{
+	top: -3px;left: -3px;background: #ffffff;
+}
+.eSpace li:hover ul
+{
+	position: absolute;z-index: 1;top: -80px;left: 260px;display: block;overflow: hidden;width: 300px; height: 140px;padding: 100px 0; padding-left: 40px;border: 3px #eb8d00 solid;border-radius: 100%;background: #ffffff;/*behavior: url(border-radius.htc);*/
+}
+.eSpace li:hover ul.pi2
+{
+    left: -260px;padding: 70px 10px 130px 30px;
+}
+
+.adding
+{
+    padding: 10px 0 30px 16px;
+}
+.adding h2
+{
+    font-size: 35px; font-weight: normal; line-height: 80px;height: 80px;
+}
+.adding ul > li
+{
+	float: left;width: 448px;
+}
+.adding li
+{
+    font-size: 18px; padding: 5px 0;
+}
+.adding li li a
+{
+    padding-left: 30px;
+}
+.adding p
+{
+    font-size: 18px;
+}
+.adding li li a:hover
+{
+    text-decoration: underline;
+}
+
+/*footer*/
+.foot
+{
+	height: 40px; background: #444;
+}
+.foot p
+{
+    font-size: 12px;line-height: 40px;color: #ccc;
+}
+	height: 52px;
+}
+
+.topNav a {
+	height: 52px;
+	line-height: 52px;
+	font: 16px/52px "Microsoft YaHei", "Simsun", "宋体";
+}
+
+/*side nav*/
+.sideNav {
+	width: 201px;
+	float: left;
+}
+
+.mainTitle {
+	width: 183px;
+	height: 47px;
+	padding: 0 0 0 60px;
+	background: url(../Content/image/common/daohang5.png)no-repeat;
+	color: #fff;
+	font: 18px/40px "Microsoft YaHei", "Simsun", "宋体";
+}
+
+.lv0 a {
+	width: 183px;
+	height: 37px;
+	padding: 0 0 0 18px;
+	display: block;
+	background: url(../Content/image/common/sideArrowHuge2.png) no-repeat;
+	color: #222;
+	font: 14px/37px "Microsoft YaHei", "Simsun", "宋体";
+	border-bottom: 1px dotted #c6c6c6;
+}
+
+.lv1 a {
+	width: 165px;
+	height: 31px;
+	padding: 0 0 0 18px;
+	margin-left: 18px;
+	display: block;
+	background: url(../Content/image/common/sideItemBg.png) no-repeat;
+	color: #222;
+	font: 12px/31px "Microsoft YaHei", "Simsun", "宋体";
+	border-bottom: 1px dotted #c6c6c6;
+}
+
+.lv0 a:hover {
+	background-position-y: bottom;
+	color: #1394A8;
+}
+
+a.activeLv0, a.activeLv1, a.activeLv0:hover, a.activeLv1:hover {
+	background-position-y: bottom;
+	color: #1394A8;
+}
+
+.lv0 i {
+	width: 12px;
+	height: 7px;
+	display: block;
+	float: right;
+	margin: 15px 3px 0 0;
+	background: url(../Content/image/common/sideArrowHugePlus.png);
+}
+
+.lv1 i {
+	width: 9px;
+	height: 5px;
+	display: block;
+	float: right;
+	margin: 13px 3px 0 0;
+	background: url(../Content/image/common/sideArrow.png);
+}
+
+.lvWrapper1 {
+	display: none;
+}
+
+.lvWrapper2 {
+	padding: 10px 0;
+	display: none;
+}
+
+.lv2 a {
+	width: 139px;
+	height: 24px;
+	padding: 0 0 0 18px;
+	margin-left: 34px;
+	display: block;
+	color: #444;
+	font: 12px/24px "Microsoft YaHei", "Simsun", "宋体";
+	background: none;
+	border: 0;
+}
+
+a.activeLv2, a.activeLv2:hover {
+	color: #1394A8;
+}
+
+/*core*/
+.core {
+	width: 765px;
+	float: right;
+}
+
+.coreRow0 {
+	height: 26px;
+	overflow: hidden;
+	margin-bottom: 13px;
+}
+
+.coreTitle {
+	float: left;
+	display: block;
+	color: #1394A8;
+	font: 24px/24px "Microsoft YaHei", "Simsun", "宋体";
+}
+
+.coreBreadcrumb {
+	float: right;
+	display: block;
+	margin-top: 9px;
+	padding: 0 0 0 22px;
+	background: url(../Content/image/common/spot.png) 0 3px no-repeat;
+}
+
+.coreBreadcrumb i {
+	color: #1394A8;
+}
+
+.coreBreadcrumb a:hover {
+	text-decoration: underline;
+}
+
+.splitor_blue {
+	height: 2px;
+	background: #1394A8;
+	margin: 0 0 24px 0;
+}
+
+.splitor_gray {
+	height: 1px;
+	background: #cecece;
+	border-bottom: 1px solid #f3f3f3;
+	margin: 0 0 24px 0;
+}
+
+.blockWrapper {
+	width: 820px;
+	overflow: hidden;
+}
+
+.blockWrapper p {
+	width: 773px;
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #1394A8;
+}
+
+.managementMore {
+	margin-bottom: 32px;
+}
+
+.blockWrapper p a, .managementMore a {
+	float: right;
+	font-size: 12px;
+	color: #262276;
+}
+
+.blockWrapper p a i, .managementMore a i {
+	width: 5px;
+	height: 7px;
+	display: block;
+	float: right;
+	margin: 7px 0 0 8px;
+	background: url(../Content/image/common/arrowRight3.png);
+}
+
+.blockWrapper p a:hover,
+.managementMore a:hover {
+	color: #1394A8;
+}
+
+.blockWrapper p a:hover i,
+.managementMore a:hover i {
+	background-position-x: right;
+}
+
+.block, .blockInner {
+	width: 239px;
+	float: left;
+	margin: 0 15px 18px 0;
+}
+
+.blockCate {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 0;
+}
+
+.blockCateRight {
+	width: 472px;
+	float: right;
+	margin: 0 2px 20px 0;
+}
+
+.blockVoiceHuge {
+	width: 374px;
+	float: left;
+	margin: 0 23px 20px 0;
+	position: relative;
+}
+
+.blockTitle {
+	font-size: 14px;
+	font-weight: bold;
+	color: #1394A8;
+	margin: 0 0 10px 0;
+}
+
+.jobTitle {
+	font-size: 16px;
+	font-weight: bold;
+	color: #1394A8;
+	display: block;
+	margin: 0 0 30px 0;
+}
+
+.blockBody {
+	width: 237px;
+	background: #f8f8f8;
+	border: 1px solid #e5e5e5;
+}
+
+.blockBodyInner {
+	width: 237px;
+	height: 136px;
+	border: 1px solid #e5e5e5;
+	position: relative;
+}
+
+.blockBodyInner i {
+	width: 237px;
+	height: 30px;
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: #fff;
+	text-indent: 1em;
+	font: 14px/30px "Microsoft YaHei", "Simsun", "宋体";
+	background: url(../Content/image/common/lightBlueMask.png);
+}
+
+.blockBody:hover, .blockBodyVoiceHuge:hover, .blockBodyHonor:hover,
+.blockBodyInner:hover, .blockBodyCateLeft:hover, .blockBodyCateRight:hover {
+	border: 1px solid #448c8c;
+}
+
+.blockBodyHonor {
+	width: 237px;
+	background: #f8f8f8;
+	border: 1px solid #e5e5e5;
+	position: relative;
+}
+
+.blockBodyCateLeft {
+	width: 270px;
+	background: #f8f8f8;
+	border: 1px solid #e5e5e5;
+	position: relative;
+}
+
+.blockBodyCateRight {
+	width: 472px;
+	background: #f8f8f8;
+	border: 1px solid #e5e5e5;
+	position: relative;
+}
+
+.blockBody i, .blockBodyHonor i, .blockBodyVoiceHuge i,
+.blockBodyCateLeft i, .blockBodyCateRight i {
+	padding: 3px 4px 8px 11px;
+	display: block;
+}
+
+.blockBodyVoiceHuge {
+	width: 374px;
+	height: 272px;
+	background: #f8f8f8;
+	border: 1px solid #e5e5e5;
+}
+
+.blockBodyVoiceHuge em {
+	width: 374px;
+	height: 210px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(../Content/image/industry/voice/play.png) no-repeat;
+}
+
+.blockBodyVoiceHuge a:hover em, .blockBodyHonor a:hover em {
+	background-position-y: bottom;
+}
+
+.blockBodyHonor em {
+	width: 274px;
+	height: 163px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(../Content/image/industry/voice/playTiny.png) no-repeat;
+}
+
+.milestoneItem {
+	overflow: hidden;
+	border-bottom: 1px dotted #c2c2c2;
+	margin: 0 0 24px 0;
+}
+
+.milestoneYear {
+	/*width: 116px;*/
+	display: block;
+	float: left;
+	padding: 0 0 50px 23px;
+	color: #262276;
+	font: 18px/38px "Microsoft YaHei", "Simsun", "宋体";
+	 
+}
+
+.milestoneEvents {
+	width: 660px;
+	display: block;
+	float: right;
+	margin-bottom: 24px;
+}
+
+.milestoneEvents i {
+	width: 660px;
+	display: block;
+	float: right;
+	margin: 0 0 2px 0;
+}
+
+.listRow0 {
+	margin: 20px 0 34px 0;
+	overflow: hidden;
+}
+
+.listRowPro {
+	margin: 15px 0 18px 0;
+	padding-bottom: 15px;
+	overflow: hidden;
+	border-bottom: 1px dotted #c2c2c2;
+}
+
+.listRowPro p {
+	margin: 0 0 9px 0;
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+}
+
+.listPic {
+	width: 405px;
+	height: 228px;
+	margin: 0 12px 0 0;
+	float: left;
+	border: 1px solid #dee;
+}
+
+.listProPic {
+	width: 150px;
+	height: 84px;
+
+	float: left;
+	border: 1px solid #dee;
+}
+
+.listGuyPic {
+	width: 98px;
+	height: 98px;
+	margin: 0 12px 0 0;
+	float: left;
+	border: 1px solid #dee;
+}
+
+.listGuyPicHuge {
+	width: 140px;
+	height: 140px;
+	margin: 0 12px 0 0;
+	float: left;
+	border: 1px solid #dee;
+}
+
+.listPic:hover,
+.listProPic:hover,
+.listGuyPic:hover {
+	border: 1px solid #448c8c;
+}
+
+.newsMess {
+	width: 343px;
+	float: right;
+}
+
+.proMess {
+	width: 608px;
+	float: right;
+}
+
+.guyMess {
+	width: 661px;
+	float: right;
+}
+
+.guyMessHuge {
+	width: 760px;
+	float: right;
+}
+
+.guyMess p,
+.guyMessHuge p {
+	color: #1394A8;
+	margin-bottom: 11px;
+}
+
+.newsMess i a {
+	display: block;
+	color: #1394A8;
+	font: 14px/24px "Microsoft YaHei", "Simsun", "宋体";
+}
+
+.proMess a,
+.guyMess a {
+	color: #262276;
+}
+
+.newsMess i a:hover, .proMess a:hover, .guyMess a:hover {
+	color: #1394A8;
+	text-decoration: underline;
+}
+
+.newsMess em, .proMess em, .guyMess em {
+	display: block;
+	color: #666;
+	font: 12px/23px "Simsun", "宋体";
+	margin: 13px 0 17px 0;
+}
+
+.newsMess span, .proMess span {
+	display: block;
+	color: #999;
+	font: 12px/18px "Simsun", "宋体";
+}
+
+.proMess span,
+.guyMess span {
+	margin-top: 5px;
+}
+
+.listRowLite {
+	margin-bottom: 23px;
+	border-bottom: 1px dotted #c2c2c2;
+}
+
+.listRowLite i a {
+	display: block;
+	color: #666;
+	font: 14px/24px "Microsoft YaHei", "Simsun", "宋体";
+}
+
+.listRowLite i a:hover {
+	color: #1394A8;
+	text-decoration: underline;
+}
+
+.listRowLite em {
+	display: block;
+	color: #666;
+	font: 12px/23px "Simsun", "宋体";
+	margin: 13px 0 15px 0;
+}
+
+.listRowLite span a {
+	float: right;
+	color: #262276;
+	padding-left: 19px;
+	background: url(../Content/image/common/pdf.png) no-repeat;
+}
+
+.listRowLite span a:hover {
+	color: #1394A8;
+	text-decoration: underline;
+}
+
+.listRowLite em a {
+	color: #262276;
+}
+
+.listRowLite em a:hover {
+	color: #1394A8;
+}
+
+.listRowLite span {
+	display: block;
+	color: #999;
+	font: 12px/18px "Simsun", "宋体";
+	margin-bottom: 19px;
+}
+
+.pagiNormal:hover {
+i
+	width: 22px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: #1394A8;
+}
+
+.pagiActive:hover {
+    color: #fff;
+    background: #1394A8;
+    border: 1px solid #1394A8;
+}
+
+.thePages {
+	float: right;
+}
+
+.pagination a, .pagination span {
+    height: 22px;
+    display: block;
+    text-align: center;
+    line-height: 22px;
+    float: left;
+    margin: 0 6px;
+    font-size: 12px;
+}
+.pagiActive {
+	width: 22px;
+    color: #fff;
+    background: #1394A8;
+    border: 1px solid #1394A8;
+}
+
+.pagiNormal {
+	width: 22px;
+    color: #333;
+    border: 1px solid #999;
+}
+
+.pagiNormal:hover {
+	width: 22px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: #1394A8;
+}
+
+.pagiActive:hover {
+    color: #fff;
+    background: #1394A8;
+    border: 1px solid #1394A8;
+}
+
+.pagiBtnUp {
+    width: 44px;
+    height: 22px;
+    line-height: 22px;
+    display: block;
+    text-align: center;
+    float: left;
+    color: #222;
+    font-size: 12px;
+    border: 1px solid #999;
+}
+.pagiBtnNext {
+    width: 44px;
+    height: 22px;
+    line-height: 22px;
+    display: block;
+    text-align: center;
+    float: left;
+    color: #222;
+    font-size: 12px;
+    border: 1px solid #999;
+}
+
+.pagiBtnUp:hover, .pagiBtnNext:hover {
+    color: #fff;
+    background: #1394A8;
+    border: 1px solid #fff;
+}
+
+/* pagination end */
+
+.contactRow0 p, .contactRowMisc p {
+	color: #1394A8;
+	font-weight: bold;
+	margin: 18px 0 12px 0;
+}
+
+.contactRow0 td, .contactRowMisc td {
+	color: #4c4c4c;
+	background: #f1f1f1;
+	padding: 4px 8px;
+	line-height: 18px;
+}
+
+td.tableHead {
+	background: #e6e6e6;
+}
+
+.tableTab a {
+	width: 767px;
+	height: 28px;
+	display: block;
+	color: #4d4d4d;
+	line-height:28px;
+	background: url(../Content/image/common/tableTabBg.png);
+	border: 1px solid #e6e6e6;
+	margin-left: 2px;
+}
+
+.tableTab a:hover {
+	color: #1394A8;
+}
+
+.tableTab i {
+	padding: 0 12px;
+	color: #1394A8;
+	font-weight: bold;
+}
+
+.tableTab em {
+	font-size: 16px;
+	padding: 0 12px;
+	display: block;
+	float: right;
+	color: #1394A8;
+}
+
+.tableTab table {
+	display: none;
+}
+
+.contexTitle {
+	color: #1394A8;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 23px;
+}
+
+.cateLeftRnd {
+	width: 23px;
+}
+
+.managemantDesc {
+	margin-bottom: 33px;
+}
+
+.titleWithLine {
+	width: 773px;
+	height: 64px;
+	display: block;
+	color: #1394A8;
+	font: 18px/64px "Microsoft YaHei", "Simsun", "宋体";
+	background: url(../Content/image/common/titleWithLineBg.png);
+}
+
+.titleWithLine i {
+	height: 64px;
+	float: left;
+	display: block;
+	padding-right: 15px;
+	background: #fff;
+}
+
+.reduceMargin {
+	margin-bottom: 8px;
+}
+
+.cntFoot {
+	width: 763px;
+	padding: 30px 0 20px 0;
+	overflow: hidden;
+}
+
+.cntFoot a {
+	height: 14px;
+	display: block;
+}
+
+.toTop {
+	float: right;
+}
+
+.toTop i {
+	width: 9px;
+	height: 9px;
+	display: block;
+	float: left;
+	margin: 6px 5px 0 0;
+	background: url(../Content/image/common/footArrow.gif) 0 bottom;
+}
+
+.stockNav {
+	overflow: hidden;
+}
+
+.stockNavLeft a {
+	width: 148px;
+	height: 40px;
+	display: block;
+	float: left;
+	margin-right: 4px;
+	line-height: 33px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	background: url(../Content/image/common/tabBg.png);
+}
+
+.stockNavLeft a:hover {
+	background: url(../Content/image/common/tabBg.png) left -40px;
+}
+
+a.stockActiveLeft, a.stockActiveLeft:hover {
+	background: url(../Content/image/common/tabBg.png) left bottom;
+}
+
+.stockBlock {
+	display: block;
+	margin-top: 36px;
+}
+
+.stockNavRight a {
+	width: 98px;
+	height: 31px;
+	display: block;
+	float: left;
+	color: #4d4d4d;
+	text-align: center;
+	font-size: 14px;
+	line-height:31px;
+	background: url(../Content/image/common/tableTabBg.png) 0 bottom #fff;
+	border: 1px solid #e6e6e6;
+	margin-right: 4px;
+}
+
+.stockNavRight a:hover, a.stockActiveRight {
+	color: #1394A8;
+}
+
+.recruList {
+	width: 520px;
+	height: 347px;
+	margin-top: 30px;
+	background: url(../Content/image/job/recruitment/listBg.png) no-repeat;
+}
+
+.recruListCollege {
+	width: 820px;
+	height: 347px;
+	margin-top: 30px;
+	background: url(../Content/image/job/recruitment/listBg.png) no-repeat 0 -347px;
+}
+
+.recruListSociety {
+	width: 820px;
+	height: 347px;
+	margin-top: 30px;
+	background: url(../Content/image/job/recruitment/listBg.png) no-repeat 0 bottom;
+}
+
+.recruCol {
+	width: 250px;
+	height: 377px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+
+.recruCol .managementMore {
+	/*margin: 19px 17px 0 0; */
+	position: absolute;
+	right: 10px;
+	bottom: 35px;
+}
+
+
+.recruTitle {
+	width: 210px;
+	padding: 0 0 0 40px;
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 36px;
+	color: #fff;
+	margin: 0 0 13px 0;
+}
+
+.recruItem a {
+	width: 220px;
+	display: block;
+	padding: 0 0 0 13px;
+	line-height: 28px;
+}
+
+.recruItem a:hover i,
+.eventItems a:hover i {
+	text-decoration: underline;
+}
+
+.recruItem em {
+	float: right;
+	color: #999;
+}
+
+.recruCol .managementMore {
+	margin: 19px 17px 0 0;
+}
+
+.searchBar {
+	margin: 22px 0;
+	overflow: hidden;
+}
+
+.searchLeft {
+	height: 36px;
+	display: block;
+	float: left;
+	color: #1394A8;
+	font: 18px/36px "Microsoft YaHei", "Simsun", "宋体";
+}
+
+.searchRight {
+	width: 680px;
+	height: 36px;
+	display: block;
+	float: right;
+	background: url(../Content/image/job/recruitment/search.jpg) no-repeat;
+}
+
+.searchRight .searchText {
+	width: 555px;
+	height: 20px;
+	line-height: 14px;
+	margin: 8px 0 0 35px;
+	color: #999;
+	font: 14px/20px "Simsun", "宋体";
+}
+
+.searchRight .searchBtn {
+	width: 82px;
+	height: 36px;
+	display: block;
+	cursor: hand;
+	cursor: pointer;
+	float: right;
+	background: transparent;
+}
+
+.eventItems a {
+	display: block;
+	margin-bottom: 18px;
+}
+
+.eventItems i {
+	width: 220px;
+	display: block;
+	padding: 0 0 0 13px;
+	line-height: 28px;
+	font-weight: bold;
+}
+
+.eventItems em {
+	width: 220px;
+	display: block;
+	padding: 0 0 0 13px;
+}
+
+.jobDetail {
+	position: relative;
+}
+
+.applicant {
+	position: absolute;
+	right: 214px;
+	top: 43px;
+}
+
+.applicant a {
+	width: 96px;
+	height: 27px;
+	display: block;
+	text-align: center;
+	line-height: 27px;
+	color: #fff;
+	background: #3f3b97;
+}
+
+.applicant a:hover {
+	background: #1394A8;
+}
+
+a.favorite {
+	padding: 4px 0 0 9px;
+	color: #838383;
+	background: url(../Content/image/common/star.png) no-repeat 6px center #fff;
+}
+
+a.favorite:hover {
+	color: #1394A8;
+	text-decoration: underline;
+	background: url(../Content/image/common/star.png) no-repeat 6px center #fff;
+}
+
+.appNav {
+	position: relative;
+}
+
+.appNav a {
+	width: 110px;
+	height: 36px;
+	margin-right: 6px;
+	display: block;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	line-height: 36px;
+	border-top: 1px solid #e2e2e2;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	background: #ebebeb;
+}
+
+a.activeApp {
+	height: 36px;
+	color: #1394A8;
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.appGhost {
+	width: 773px;
+	height: 37px;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.appFrame {
+	width: 751px;
+	padding: 25px 10px;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	display: block;
+	float: left;
+	margin: 0 0 40px 0;
+}
+
+.resumeRow {
+	width: 751px;
+	height: 29px;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.resumeRowPreview {
+	width: 751px;
+	height: 29px;
+	display: block;
+	overflow: hidden;
+	margin: 33px 0 22px 0;
+}
+
+.resumeRowPreview .cateLeft {
+	font-weight: bold;
+}
+
+.cateLeft {
+	width: 100px;
+	float: left;
+	border-bottom: 3px solid #1394A8;
+	color: #444;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.cateRight {
+	width: 651px;
+	float: right;
+	border-bottom: 3px solid #dad5d5;
+	text-align: right;
+}
+
+.cateRightPreview {
+	width: 651px;
+	display: block;
+	float: right;
+	border-bottom: 3px solid #dad5d5;
+}
+
+.editIcon, .foldIcon, .saveIcon {
+	width: 52px;
+	height: 20px;
+	display: block;
+	margin: 3px 0 3px 12px;
+	float: right;
+	background: url(../Content/image/job/recruitment/icon.png);
+}
+
+.cateRightPreview i {
+	width: 52px;
+	height: 20px;
+	display: block;
+	margin: 3px 0 3px 12px;
+	float: right;
+}
+
+.editIcon {
+	background-position-y: -20px;
+}
+
+.foldIcon {
+	background-position-y: bottom;
+}
+
+.editRow {
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+
+.editNote {
+	width: 751px;
+	border-bottom: 1px dotted #c2c2c2;
+	margin-bottom: 18px;
+	line-height: 33px;
+}
+
+.editRow i {
+	color: #993333;
+}
+
+.editNote span {
+	float: right;
+}
+
+.editRow select {
+	height: 22px;
+	min-width: 110px;
+	border: 1px solid #ccc;
+}
+
+.editRow input {
+	width: 180px;
+	height: 20px;
+	padding: 0px 10px;
+	border: 1px solid #ccc;
+}
+
+.editRow textarea {
+	width: 481px;
+	height: 100px;
+	max-width: 481px;
+	padding: 4px 10px;
+	border: 1px solid #ccc;
+}
+
+input.radio, input.checkbox, label {
+	width: 24px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	display: block;
+}
+
+label {
+	margin-right: 12px;
+}
+
+.editRow td {
+	height: 20px;
+	padding: 5px 0;
+}
+
+.nameInput, .numInput {
+	width: 250px;
+}
+
+.avatar a {
+	display: block;
+	float: left;
+}
+
+.avatar a:hover em {
+	color: #1394A8;
+}
+
+.avatar a em {
+	color: #c45462;
+}
+
+.onceMore a {
+	width: 96px;
+	height: 28px;
+	display: block;
+	float: left;
+	margin: 0 0 30px 78px;
+	background: #221d73;
+	text-align: center;
+	line-height: 28px;
+	color: #fff;
+}
+
+.onceMore a:hover {
+	background: #1394A8;
+}
+
+.status {
+	width: 751px;
+	height: 30px;
+	display: block;
+	float: left;
+}
+
+.status label {
+	width: 164px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	display: block;
+}
+
+.forMe label {
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+}
+
+.forMe i {
+	display: block;
+	float: left;
+	margin-right: 4px;
+}
+
+.finally {
+	width: 451px;
+	height: 32px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin: 50px 0 0 150px;
+}
+
+.reviewTitle {
+	width: 751px;
+	height: 44px;
+	border-top: 3px solid #1394A8;
+}
+
+.reviewTitle ul {
+	width: 749px;
+	height: 14px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 15px 0;
+}
+
+.reviewTitle ul li {
+	display: block;
+	float: left;
+	font-weight: bold;
+	line-height: 14px;
+	text-align: center;
+}
+
+.reviewList ul li {
+	display: block;
+	float: left;
+	line-height: 44px;
+	text-align: center;
+}
+
+.reviewLink {
+	width: 751px;
+	height: 44px;
+	display: block;
+	border-bottom: 1px dotted #ddd;
+}
+
+.reviewList ul {
+	width: 751px;
+	height: 44px;
+	display: block;
+	border-bottom: 1px dotted #ddd;
+}
+
+.reviewList a:hover,
+.reviewList ul:hover {
+	background: #f1f1f1;
+}
+
+.reviewTitle0,
+.list0 {
+	width: 148px;
+}
+
+.reviewTitle1,
+.list1 {
+	width: 200px;
+}
+
+.reviewTitle2,
+.list2 {
+	width: 260px;
+}
+
+.reviewTitle3,
+.list3 {
+	width: 138px;
+}
+
+.reviewTitle0,
+.reviewTitle1,
+.reviewTitle2,
+.favoriteTitle0,
+.favoriteTitle1,
+.favoriteTitle2,
+.favoriteTitle3,
+.favoriteTitle4 {
+	border-right: 1px solid #e7e7e7;
+}
+
+.paginationWrapper {
+	width: 751px;
+	height: 24px;
+	margin: 30px 0 10px 0;
+	overflow: hidden;
+}
+
+.couter {
+	width: 400px;
+	display: block;
+	float: left;
+}
+
+.couter i {
+	font-weight: bold;
+	color: #1394A8;
+}
+
+.paginationWrapper .pagination {
+	width: 351px;
+	display: block;
+	float: right;
+	margin: 0;
+	overflow: hidden;
+}
+
+.favoriteTitle0,
+.favoriteList0 {
+	width: 165px;
+}
+
+.favoriteTitle1,
+.favoriteList1 {
+	width: 230px;
+}
+
+.favoriteTitle2,
+.favoriteList2 {
+	width: 90px;
+}
+
+.favoriteTitle3,
+.favoriteList3 {
+	width: 100px;
+}
+
+.favoriteTitle4,
+.favoriteList4 {
+	width: 90px;
+}
+
+.favoriteTitle5,
+.favoriteList5 {
+	width: 60px;
+}
+
+.favoriteList0 input {
+	margin: 14px 0 0 6px;
+}
+
+.favoriteList0 label {
+	line-height: 44px;
+	text-align: left;
+	width: 123px;
+}
+
+.favoriteList4 a {
+	width: 44px;
+	height: 44px;
+	color: #fff;
+	padding: 3px 12px;
+	background: #242075;
+	margin-left: 5px;
+}
+
+.favoriteList4 a:hover,
+.couter a:hover {
+	background: #1394A8;
+}
+
+.favoriteList5 a {
+	width: 16px;
+	height: 17px;
+	display: block;
+	margin: 4px 0 0 27px;
+}
+
+.couter a {
+	color: #fff;
+	padding: 5px 12px;
+	background: #242075;
+	margin: 5px 13px 0 5px;
+}
+
+.couter input {
+	margin-top: 2px;
+}
+
+.titlesInput input {
+	margin-top: 3px;
+}
+
+.titlesTable {
+	width: 773px;
+	border-bottom: 1px dotted #ddd;
+	margin-bottom: 13px;
+}
+
+.titlesInput {
+	width: 16px;
+}
+
+.titlesName {
+	width: 340px;
+}
+
+.titlesName i {
+	color: #1394A8;
+}
+
+.titlesDate {
+	height: 40px;
+}
+
+.titlesAppBtn {
+	display: block;
+	position: relative;
+}
+
+.titlesTable .applicant {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+a.favorite {
+	padding: 4px 0 0 9px;
+	color: #838383;
+	background: url(../Content/image/common/star.png) no-repeat 6px center #fff;
+}
+
+a.favorite:hover {
+	color: #1394A8;
+	text-decoration: underline;
+	background: url(../Content/image/common/star.png) no-repeat 6px center #fff;
+}
+
+.titlesTable a.favorite {
+	padding: 6px 0 0 26px;
+}
+
+.titlesRequired {
+	width: 277px;
+}
+
+.preview {
+	width: 751px;
+	padding: 15px 10px;
+	border: 1px solid #ddd;
+	overflow: hidden;
+}
+
+.printBtn, .exportBtn {
+	width: 52px;
+	height: 20px;
+	display: block;
+	float: left;
+	margin: 3px 15px 0 0;
+	background: url(../Content/image/common/preview.png);
+}
+
+.exportBtn {
+	background-position-y: bottom;
+}
+
+.previewName {
+	width: 370px;
+	height: 50px;
+	color: #333;
+	font: 21px/36px "Microsoft YaHei", "Simsun", "宋体";
+}
+
+.previewPlace {
+	width: 220px;
+}
+
+.previewEducationTitle {
+	font-weight: bold;
+}
+
+.previewEducationTitleRow {
+	height: 35px;
+	font-weight: bold;
+}
+
+.previewEducation td {
+	padding: 4px 0;
+}
+
