@@ -6,36 +6,36 @@ using System.Web.Mvc;
 
 namespace EzconnWebPortal.Controllers
 {
-    public class HomeController : Controller
+    public class RfController : Controller
     {
-        // GET: Home
+        // GET: RF
         public ActionResult Index()
         {
             return View();
         }
-
-        public ActionResult ContactUs()
+        public ActionResult Catv()
         {
             return View();
         }
-        public ActionResult Product()
+        public ActionResult Stb()
         {
             return View();
         }
-        public ActionResult About()
+        public ActionResult Wirless()
         {
             return View();
         }
-        public ActionResult Activity()
+        public ActionResult Instrument()
         {
             return View();
         }
-        public ActionResult Person()
+        public ActionResult Infrastructur()
         {
             return View();
         }
-       
-       
-
+        public ActionResult Automotive()
+        {
+            return View();
+        }
     }
 }

@@ -274,34 +274,17 @@
     <Content Include="Scripts\common.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery.Xslider.js" />
-    <Content Include="Views\Home\chanpin.html" />
-    <Content Include="Views\Home\gsfengcai.html" />
-    <Content Include="Views\Home\GTX\AD.html" />
-    <Content Include="Views\Home\GTX\GTX.html" />
-    <Content Include="Views\Home\GTX\osa.html" />
-    <Content Include="Views\Home\GTX\others.html" />
-    <Content Include="Views\Home\GTX\passive.html" />
-    <Content Include="Views\Home\GY\SHZR.html" />
-    <Content Include="Views\Home\GY\XWZX.html" />
-    <Content Include="Views\Home\HD\DBQ.html" />
-    <Content Include="Views\Home\HD\NH.html" />
-    <Content Include="Views\Home\person.html" />
-    <Content Include="Views\Home\profile.html" />
-    <Content Include="Views\Home\RF\Automotive.html" />
-    <Content Include="Views\Home\RF\CATV.html" />
-    <Content Include="Views\Home\RF\Infrastructur.html" />
-    <Content Include="Views\Home\RF\Instrument.html" />
-    <Content Include="Views\Home\RF\STB.html" />
-    <Content Include="Views\Home\RF\Wirless.html" />
-    <Content Include="Views\Home\RL\ZP.html" />
-    <Content Include="Views\Home\touzi.html" />
-    <Content Include="Views\Home\TZ\GG.html" />
-    <Content Include="Views\Home\TZ\GSZL.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\ActivityController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\OpticalController.cs" />
+    <Compile Include="Controllers\PersonController.cs" />
+    <Compile Include="Controllers\RfController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -319,6 +302,29 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\ContactUs.cshtml" />
+    <Content Include="Views\Home\Product.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Activity.cshtml" />
+    <Content Include="Views\Home\person.cshtml" />
+    <Content Include="Views\Person\Recruit.cshtml" />
+    <Content Include="Views\About\Notice.cshtml" />
+    <Content Include="Views\About\Govern.cshtml" />
+    <Content Include="Views\News\News.cshtml" />
+    <Content Include="Views\News\Social.cshtml" />
+    <Content Include="Views\Activity\Ball.cshtml" />
+    <Content Include="Views\Activity\Party.cshtml" />
+    <Content Include="Views\Optical\Optical.cshtml" />
+    <Content Include="Views\Optical\AD.cshtml" />
+    <Content Include="Views\Optical\Osa.cshtml" />
+    <Content Include="Views\Optical\Passive.cshtml" />
+    <Content Include="Views\Optical\Others.cshtml" />
+    <Content Include="Views\Rf\Catv.cshtml" />
+    <Content Include="Views\Rf\Stb.cshtml" />
+    <Content Include="Views\Rf\Wirless.cshtml" />
+    <Content Include="Views\Rf\Instrument.cshtml" />
+    <Content Include="Views\Rf\Infrastructur.cshtml" />
+    <Content Include="Views\Rf\Automotive.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
